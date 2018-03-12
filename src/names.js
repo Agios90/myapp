@@ -37,7 +37,7 @@ class NameForm extends React.Component {
 	  <div>
 		  <form onSubmit={this.handleSubmit}>
 			<label>
-			  Add some names: &nbsp;
+			  Add a name: &nbsp;
 			  <input type="text" value={this.state.value} onChange={this.handleChange} />
 			</label>
 			<input type="submit" value="Submit" />
