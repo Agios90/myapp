@@ -4,6 +4,7 @@ import DevTools from "mobx-react-devtools";
 import Counter from './Counter.js';
 import Timer from './Timer.js';
 import Names from './names.js';
+import Game from './ttt.js';
 
 class AppState extends React.Component {
 	
@@ -11,7 +12,7 @@ class AppState extends React.Component {
 		return (
 			<div>
 				<DevTools /> 
-				<h3> some react-mobx experiments </h3>
+				<h3> some react-mobx experiments - <a href="https://github.com/Agios90/myapp">github</a> </h3>
 				<span>_______________________________________________</span> 
 				<br />
 				<br />
@@ -30,6 +31,9 @@ class AppState extends React.Component {
 				<span>_______________________________________________</span> 
 				<br /> 
 				<br />
+				<Game />
+				<br />
+				<span>_______________________________________________</span> 
 			</div>
 		);
 	
