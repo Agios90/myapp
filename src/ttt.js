@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.module.css';
 
 function Square(props) {
   return (

@@ -1,6 +1,6 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  
+  margin-left: 20px;
 }
 
 ol, ul {
@@ -17,7 +17,7 @@ ol, ul {
   margin-bottom: 10px;
 }
 
-.button {
+.square {
   background: #fff;
   border: 1px solid #999;
   float: left;
