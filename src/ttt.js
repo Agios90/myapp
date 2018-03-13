@@ -1,9 +1,57 @@
 import React from 'react';
-import './index.module.css';
+// import './index.module.css';
+
+const style = {
+  "body": {
+    "font": "14px \"Century Gothic\", Futura, sans-serif",
+    "marginLeft": "20px"
+  },
+  "ol": {
+    "paddingLeft": "30px"
+  },
+  "ul": {
+    "paddingLeft": "30px"
+  },
+  "board_row_after": {
+    "clear": "both",
+    "content": "\"\"",
+    "display": "table"
+  },
+  "status": {
+    "marginBottom": "10px"
+  },
+  "square": {
+    "background": "#fff",
+    "border": "1px solid #999",
+    "float": "left",
+    "fontSize": "24px",
+    "fontWeight": "bold",
+    "lineHeight": "34px",
+    "height": "34px",
+    "marginRight": "-1px",
+    "marginTop": "-1px",
+    "padding": "0",
+    "textAlign": "center",
+    "width": "34px"
+  },
+  "square_focus": {
+    "outline": "none"
+  },
+  "kbd_navigation__square_focus": {
+    "background": "#ddd"
+  },
+  "game": {
+    "display": "flex",
+    "flexDirection": "row"
+  },
+  "game_info": {
+    "marginLeft": "20px"
+  }
+}
 
 function Square(props) {
   return (
-<button className="square" onClick={props.onClick}>
+<button className="square" style={style} onClick={props.onClick}>
       {props.value}
     </button>
   );
