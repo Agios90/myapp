@@ -12,8 +12,8 @@ class AppState extends React.Component {
 			<div>
 				<DevTools /> 
 				<h3> some react-mobx experiments </h3>
-				<br />
 				<span>_______________________________________________</span> 
+				<br />
 				<br />
 				<Counter />
 				<br />
@@ -26,6 +26,10 @@ class AppState extends React.Component {
 				<br /> 
 				<br />
 				<Names />
+				<br />
+				<span>_______________________________________________</span> 
+				<br /> 
+				<br />
 			</div>
 		);
 	
