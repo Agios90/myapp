@@ -12,7 +12,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<DevTools /> 
-				<h3> some mobx-react experiments - <a href="https://github.com/Agios90/myapp">github</a> </h3>
+				<h3> some react-mobx experiments - <a href="https://github.com/Agios90/myapp">github</a> </h3>
 				<span>_______________________________________________</span> 
 				<br />
 				<br />
